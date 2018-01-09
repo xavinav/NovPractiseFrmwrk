@@ -51,7 +51,7 @@
 			<classpath>
 				<pathelement location="${build}" />
 			</classpath>
-			<xmlfileset dir="${basedir}" includes="testng_Projscripts.xml" />
+			<xmlfileset dir="${basedir}" includes="testng.xml" />
 		</testng>
 	</target>
 

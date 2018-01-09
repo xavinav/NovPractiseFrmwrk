@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Testff(failed)">
+  <test name="Test(failed)">
     <classes>
+      <class name="projectScripts.Scenario_Search_Addtocart">
+        <methods>
+          <include name="testValidSearch" invocation-numbers="0"/>
+          <include name="testCartValidation"/>
+          <include name="launchApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- projectScripts.Scenario_Search_Addtocart -->
       <class name="projectScripts.Scenario_Login">
         <methods>
-          <include name="testInvalidLogin"/>
           <include name="Report_Extent"/>
-          <include name="testValidLogin"/>
           <include name="launchApp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- projectScripts.Scenario_Login -->
     </classes>
-  </test> <!-- Testff(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

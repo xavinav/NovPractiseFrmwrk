@@ -24,44 +24,69 @@ public class PF_Home_Page {
     
 	@FindBy(id="searchsubmit")
 	public WebElement btn_Submit;
-    
-    
-  //Selecting the displayed book - Home_Page
-	@FindBy(xpath=".//*[@id='page']/div/div[3]/div[1]/div[2]/div[2]/ul/li[1]/a/img")
-	public WebElement img_bookAngryRiver;
-            
-  //Clicking Adding to cart - Home_Page
-    @FindBy(xpath=".//*[@id='product_addtocart_form']/div[3]/div[7]/div[1]/img")
-	public WebElement btn_addcartAR;
-
-    
-  //Selecting the displayed book - Home_Page
-	@FindBy(xpath=".//*[@id='page']/div/div[3]/div[1]/div[2]/div[2]/ul/li[1]/a/img")
-	public WebElement img_bookDaretowin;
-    
-   
-  //Clicking Adding to cart - Home_Page
-	@FindBy(xpath=".//*[@id='product_addtocart_form']/div[3]/div[6]/div[1]/img")
-	public WebElement btn_addcartDW;
-
-    
+	
+	@FindBy(partialLinkText="items")
+	public WebElement cart_Total_Items;
+	
     //Clicking Logout button  - Home_Page
 	@FindBy(linkText="Logout")
 	public WebElement lnktxt_Logout;
+	
+	//Extracting Empty Cart message once after logout in Home page
+	@FindBy(xpath=".//*[@id='top-checkout-area']/div[2]/div[1]")
+	public WebElement Emptycartmsg_Logout;
+	
+	//Cartnavigation in home page
+	@FindBy(xpath=".//*[@id='top-checkout-area']/div[2]/div[1]/a")
+	public WebElement lnktxt_Cartwithitems;
+	
+	public void Click_Login()
+    {
+     lnktxt_Login.click();
+   }
+
+     public String getValidmsg()
+  {
+     return msg_Valid.getText();
+  }
+	
+	public void booksearch(String Searchbookname)
+	{
+		txt_Search.sendKeys(Searchbookname);
+		btn_Submit.click();
+	}
     
+    //Extracting Cart total items
+	 public String GetCart_Totalitem()
+	 {
+		 return cart_Total_Items.getText();
+	 }
+	
+    //Click Logout
+	public void Click_logout()
+    {
+     lnktxt_Logout.click();
+   }
+    
+	//Extracting cart msg after logout
+	public String Getcartmsg_Afterlogout()
+    {
+		return Emptycartmsg_Logout.getText();
+   }
+	
+	//Clicking on cart link from Homepage
+	public void Goto_cart()
+	{
+		lnktxt_Cartwithitems.click();
+	}
+	
 	//1st section
 	public PF_Home_Page(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 		
-	public void Click_Login()
-		    {
-		     lnktxt_Login.click();
-	}
+
 	
-	public String getValidmsg()
-	{
-		return msg_Valid.getText();
-	}
+
 
 }

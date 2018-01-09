@@ -1,0 +1,2 @@
+[INFO] 2018-01-09 23:46:00,553 genericLibrary.Base_Class99 testDeleteCart - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 23:46:06,381 genericLibrary.Base_Class99 testDeleteCart - Passed as the Actual Result is Shopping Cart is Empty Expected Result is Shopping Cart is Empty

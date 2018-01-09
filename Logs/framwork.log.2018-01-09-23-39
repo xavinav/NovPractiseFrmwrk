@@ -1,0 +1,7 @@
+[INFO] 2018-01-09 23:39:04,812 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 23:39:15,727 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual cart message is Angry River was added to your shopping cart. Expected cart message is Angry River was added to your shopping cart.
+[INFO] 2018-01-09 23:39:27,062 genericLibrary.Base_Class99 testValidSearch - Failed as the Actual cart message is Dare To Win was added to your shopping cart. Expected cart message is Dare to win was added to your shopping cart.
+[INFO] 2018-01-09 23:39:40,325 genericLibrary.Base_Class99 testCartValidation - Executing the Test Case TC_06 Order is 1.0
+[INFO] 2018-01-09 23:39:44,963 genericLibrary.Base_Class99 testCartValidation - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 23:39:45,584 genericLibrary.Base_Class99 testCartValidation - Passed as the Actual total item in cart is 4 items Rs. 476.00 It is not same as msg - Empty Cart.
+[INFO] 2018-01-09 23:39:47,466 genericLibrary.Base_Class99 testCartValidation - Passed as the expected cart message is Empty Cart. Expected Cart message is - Empty Cart.

@@ -23,9 +23,8 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 public class Base_Class99 {
 	
-	
 	public WebDriver driver;
-	public ExtentReports ereports;
+	public static ExtentReports ereports;
 	public ExtentTest starttest;
 	
 	Utility_Class99 c1 = new Utility_Class99();

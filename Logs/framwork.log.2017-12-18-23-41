@@ -1,0 +1,2 @@
+[INFO] 2017-12-18 23:41:06,555 genericLibrary.Base_Class99 testValidSearch - Failed as the Actual cart message is Dare To Win was added to your shopping cart. Expected cart message is Dare to win was added to your shopping cart.
+[INFO] 2017-12-18 23:41:18,740 genericLibrary.Base_Class99 testDeleteCart - Executing the Test Case TC_07 Order is 1.0

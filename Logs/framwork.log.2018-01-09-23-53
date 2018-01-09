@@ -1,0 +1,7 @@
+[INFO] 2018-01-09 23:53:02,244 genericLibrary.Base_Class99 testValidLogin - Executing the Test Case TC_04 Order is 1.0
+[INFO] 2018-01-09 23:53:06,478 genericLibrary.Base_Class99 testValidLogin - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 23:53:16,240 genericLibrary.Base_Class99 testValidSearch - Executing the Test Case TC_05 Order is 1.0
+[INFO] 2018-01-09 23:53:20,106 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 23:53:28,789 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual cart message is Angry River was added to your shopping cart. Expected cart message is Angry River was added to your shopping cart.
+[INFO] 2018-01-09 23:53:42,133 genericLibrary.Base_Class99 testValidSearch - Failed as the Actual cart message is Dare To Win was added to your shopping cart. Expected cart message is Dare to win was added to your shopping cart.
+[INFO] 2018-01-09 23:53:57,271 genericLibrary.Base_Class99 testCartValidation - Executing the Test Case TC_06 Order is 1.0

@@ -1,21 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32466" started-at="2017-12-09T20:33:42Z" finished-at="2017-12-09T20:34:15Z">
+  <suite name="Suite" duration-ms="112359" started-at="2018-01-09T18:22:34Z" finished-at="2018-01-09T18:24:26Z">
     <groups>
     </groups>
-    <test name="Testff" duration-ms="32466" started-at="2017-12-09T20:33:42Z" finished-at="2017-12-09T20:34:15Z">
-      <class name="projectScripts.Scenario_Login">
-        <test-method status="PASS" signature="Report_Extent()[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="Report_Extent" is-config="true" duration-ms="164" started-at="2017-12-10T02:03:42Z" finished-at="2017-12-10T02:03:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Report_Extent -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="launchApp" is-config="true" duration-ms="11284" started-at="2017-12-10T02:03:43Z" finished-at="2017-12-10T02:03:54Z">
+    <test name="Test" duration-ms="112359" started-at="2018-01-09T18:22:34Z" finished-at="2018-01-09T18:24:26Z">
+      <class name="projectScripts.Scenario_DeleteCart">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_DeleteCart@c4c815]" name="launchApp" is-config="true" duration-ms="7102" started-at="2018-01-09T23:54:04Z" finished-at="2018-01-09T23:54:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="testInvalidLogin(java.util.Map)[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="testInvalidLogin" duration-ms="5666" started-at="2017-12-10T02:03:54Z" data-provider="dp_Invalidlogin" finished-at="2017-12-10T02:04:00Z">
+        <test-method status="PASS" signature="testDeleteCart(java.util.Map)[pri:0, instance:projectScripts.Scenario_DeleteCart@c4c815]" name="testDeleteCart" duration-ms="14529" started-at="2018-01-09T23:54:11Z" data-provider="dp_DeleteCart" finished-at="2018-01-09T23:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Uname=anand.naveen906@gmail.com, TC_ID=TC_07, Execute=Y, Expmsg1=Shopping Cart is Empty, Pwd=Naveen@123, Scenario=DeleteCart, Expmsg2=Hello, naveen xavier!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_DeleteCart@c4c815]" name="tearDown" is-config="true" duration-ms="504" started-at="2018-01-09T23:54:26Z" finished-at="2018-01-09T23:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- projectScripts.Scenario_DeleteCart -->
+      <class name="projectScripts.Scenario_Search_Addtocart">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="launchApp" is-config="true" duration-ms="8805" started-at="2018-01-09T23:53:07Z" finished-at="2018-01-09T23:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testValidSearch(java.util.Map)[pri:1, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="testValidSearch" duration-ms="31948" started-at="2018-01-09T23:53:16Z" data-provider="dp_BookValidSearch" finished-at="2018-01-09T23:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Search2=Dare to win, Uname=anand.naveen906@gmail.com, Search1=Angry River, TC_ID=TC_05, Execute=Y, Expmsg1=Angry River was added to your shopping cart., Pwd=Naveen@123, Expmsg3=Hello, naveen xavier!, Scenario=BookValidSearch, Expmsg2=Dare to win was added to your shopping cart.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="tearDown" is-config="true" duration-ms="512" started-at="2018-01-09T23:53:48Z" finished-at="2018-01-09T23:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="launchApp" is-config="true" duration-ms="8533" started-at="2018-01-09T23:53:48Z" finished-at="2018-01-09T23:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testCartValidation(java.util.Map)[pri:2, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="testCartValidation" duration-ms="6859" started-at="2018-01-09T23:53:57Z" data-provider="dp_CartValidation" finished-at="2018-01-09T23:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Search2=, Uname=anand.naveen906@gmail.com, Search1=, TC_ID=TC_06, Execute=Y, Expmsg1=Empty Cart., Pwd=Naveen@123, Expmsg3=Hello, naveen xavier!, Scenario=CartValidation, Expmsg2=Empty Cart.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Search_Addtocart@f4468b]" name="tearDown" is-config="true" duration-ms="548" started-at="2018-01-09T23:54:04Z" finished-at="2018-01-09T23:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- projectScripts.Scenario_Search_Addtocart -->
+      <class name="projectScripts.Scenario_Login">
+        <test-method status="PASS" signature="Report_Extent()[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="Report_Extent" is-config="true" duration-ms="143" started-at="2018-01-09T23:52:34Z" finished-at="2018-01-09T23:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Extent -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="launchApp" is-config="true" duration-ms="10608" started-at="2018-01-09T23:52:35Z" finished-at="2018-01-09T23:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testInvalidLogin(java.util.Map)[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="testInvalidLogin" duration-ms="5584" started-at="2018-01-09T23:52:46Z" data-provider="dp_Invalidlogin" finished-at="2018-01-09T23:52:51Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="tearDown" is-config="true" duration-ms="913" started-at="2017-12-10T02:04:00Z" finished-at="2017-12-10T02:04:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="tearDown" is-config="true" duration-ms="2228" started-at="2018-01-09T23:52:51Z" finished-at="2018-01-09T23:52:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="launchApp" is-config="true" duration-ms="6980" started-at="2017-12-10T02:04:01Z" finished-at="2017-12-10T02:04:08Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="launchApp" is-config="true" duration-ms="8021" started-at="2018-01-09T23:52:54Z" finished-at="2018-01-09T23:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="testValidLogin(java.util.Map)[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="testValidLogin" duration-ms="6206" started-at="2017-12-10T02:04:08Z" data-provider="dp_Validlogin" finished-at="2017-12-10T02:04:14Z">
+        <test-method status="PASS" signature="testValidLogin(java.util.Map)[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="testValidLogin" duration-ms="4639" started-at="2018-01-09T23:53:02Z" data-provider="dp_Validlogin" finished-at="2018-01-09T23:53:06Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Login@1fcfece]" name="tearDown" is-config="true" duration-ms="427" started-at="2017-12-10T02:04:14Z" finished-at="2017-12-10T02:04:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:projectScripts.Scenario_Login@15eef3d]" name="tearDown" is-config="true" duration-ms="513" started-at="2018-01-09T23:53:06Z" finished-at="2018-01-09T23:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- projectScripts.Scenario_Login -->
-    </test> <!-- Testff -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

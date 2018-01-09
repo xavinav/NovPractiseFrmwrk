@@ -1,0 +1,2 @@
+[INFO] 2017-12-19 20:29:04,291 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2017-12-19 20:29:14,194 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual cart message is Angry River was added to your shopping cart. Expected cart message is Angry River was added to your shopping cart.

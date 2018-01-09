@@ -12,6 +12,7 @@ public class bookstore99_DeleteScript {
 		
 		ff.get("http://www.99bookstore.com/");
         ff.manage().window().maximize();
+        
         ff.findElement(By.linkText("Login")).click();
         
         ff.findElement(By.id("email")).sendKeys("anand.naveen906@gmail.com");
@@ -24,6 +25,9 @@ public class bookstore99_DeleteScript {
         
         ff.findElement(By.xpath(".//*[@id='shopping-cart-table']/tbody/tr[1]/td[7]/a")).click();
         ff.findElement(By.xpath(".//*[@id='shopping-cart-table']/tbody/tr/td[7]/a")).click();
+        
+        String OTP = ff.findElement(By.xpath(".//*[@id='page']/div/div[2]/div[1]/div/div[2]/h1")).getText();
+        System.out.println(OTP);
         
         ff.findElement(By.linkText("here")).click();
         

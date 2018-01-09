@@ -1,0 +1,3 @@
+[INFO] 2018-01-09 20:04:07,450 genericLibrary.Base_Class99 testValidLogin - Executing the Test Case TC_04 Order is 1.0
+[INFO] 2018-01-09 20:04:12,184 genericLibrary.Base_Class99 testValidLogin - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2018-01-09 20:04:21,866 genericLibrary.Base_Class99 testValidSearch - Executing the Test Case TC_05 Order is 1.0

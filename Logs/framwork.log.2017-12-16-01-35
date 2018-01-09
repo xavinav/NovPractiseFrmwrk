@@ -1,0 +1,4 @@
+[INFO] 2017-12-16 01:35:42,726 genericLibrary.Base_Class99 testInvalidLogin - Executing the Test Case TC_01 Order is 1.0
+[INFO] 2017-12-16 01:35:46,010 genericLibrary.Base_Class99 testInvalidLogin - Passed as the Actual Result is Invalid login or password. Expected Result is Invalid login or password.
+[INFO] 2017-12-16 01:35:54,300 genericLibrary.Base_Class99 testValidLogin - Executing the Test Case TC_04 Order is 1.0
+[INFO] 2017-12-16 01:35:57,628 genericLibrary.Base_Class99 testValidLogin - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!

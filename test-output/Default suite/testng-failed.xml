@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="projectScripts.Scenario_Login">
+      <class name="projectScripts.DeleteCart">
         <methods>
-          <include name="testInvalidLogin"/>
+          <include name="testDeleteCart" invocation-numbers="0"/>
           <include name="Report_Extent"/>
-          <include name="testValidLogin"/>
           <include name="launchApp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- projectScripts.Scenario_Login -->
+      </class> <!-- projectScripts.DeleteCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

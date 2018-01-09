@@ -1,0 +1,4 @@
+[INFO] 2017-12-16 01:24:32,786 genericLibrary.Base_Class99 testValidSearch - Executing the Test Case TC_05 Order is 1.0
+[INFO] 2017-12-16 01:24:36,219 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2017-12-16 01:24:44,886 genericLibrary.Base_Class99 testValidSearch - Passed as the Actual cart message is Angry River was added to your shopping cart. Expected cart message is Angry River was added to your shopping cart.
+[INFO] 2017-12-16 01:24:57,159 genericLibrary.Base_Class99 testValidSearch - Failed as the Actual cart message is Dare To Win was added to your shopping cart. Expected cart message is Dare to win was added to your shopping cart.

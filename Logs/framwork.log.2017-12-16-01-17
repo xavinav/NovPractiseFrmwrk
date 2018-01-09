@@ -1,0 +1,3 @@
+[INFO] 2017-12-16 01:17:35,893 genericLibrary.Base_Class99 testDeleteCart - Executing the Test Case TC_07 Order is 1.0
+[INFO] 2017-12-16 01:17:39,458 genericLibrary.Base_Class99 testDeleteCart - Passed as the Actual Result is Hello, naveen xavier! Expected Result is Hello, naveen xavier!
+[INFO] 2017-12-16 01:17:46,392 genericLibrary.Base_Class99 testDeleteCart - Passed as the Actual Result is Shopping Cart is Empty Expected Result is Shopping Cart is Empty

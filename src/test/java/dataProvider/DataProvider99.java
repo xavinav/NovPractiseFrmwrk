@@ -24,6 +24,25 @@ public class DataProvider99 {
 		return commondp_logic("Login99","ValidLogin");
 	}
 	
+	@DataProvider(name="dp_BookValidSearch")
+	public static Iterator<Object[]> getvalidsearchnames() throws Exception
+	{
+		return commondp_logic("Search","BookValidSearch");
+	}
+	
+	@DataProvider(name="dp_CartValidation")
+	public static Iterator<Object[]> getcartvalidationmsg() throws Exception
+	{
+		return commondp_logic("Search","CartValidation");
+	}
+	
+	@DataProvider(name="dp_DeleteCart")
+	public static Iterator<Object[]> DeleteCartItems() throws Exception
+	{
+		return commondp_logic("EmptyCart","DeleteCart");
+	}
+	
+	
 	public static Iterator<Object[]> commondp_logic(String sheetName,String sname) throws Exception
 	{
 		
